@@ -104,3 +104,24 @@ class ConfigurationCreator:
         .order_by("cost")
         .last()
     )
+    # get_powerfull_powerunit = (
+    #     lambda self, price, max_tdp: PowerUnit.objects.filter(
+    #         cost__lte=price, power__gte=max_tdp
+    #     )
+    #     .order_by("cost")
+    #     .last()
+    # )
+    # get_powerfull_powerunit = (
+    #     lambda self, price, max_tdp: PowerUnit.objects.filter(
+    #         cost__lte=price, power__gte=max_tdp
+    #     )
+    #     .order_by("cost")
+    #     .last()
+    # )
+    # get_powerfull_powerunit = (
+    #     lambda self, price, max_tdp: PowerUnit.objects.filter(
+    #         cost__lte=price, power__gte=max_tdp
+    #     )
+    #     .order_by("cost")
+    #     .last()
+    # )
